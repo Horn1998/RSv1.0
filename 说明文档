@@ -1,0 +1,19 @@
+引擎说明：
+1、TPEngine   文本分类引擎
+2、RSEngine   推荐系统引擎
+
+
+数据库设计
+userid 用户id
+Engine 模型
+type   具体类型
+option 操作
+
+
+config：
+way     获取数据的方式
+format  文件格式
+path    文件路径
+option  操作  (注:必须严格与操作类名相同)
+userid  用户id
+Engine  模型
