@@ -2,24 +2,35 @@ from Common.DatabaseProcess.AbstractClass import DatabaseProcess
 from Common.FileProcess.Folder import Folder
 from Common.FileProcess.TXTFile import TXTFile
 from Common.LogProcess.Logger import Logger
-from elasticsearch import Elasticsearch, helpers
+from elasticsearch import Elasticsearch as ES
+from elasticsearch import helpers
+import traceback
 import datetime
 import jieba
 import json
 import os
 class ElasticSearch(DatabaseProcess):
-    def connect(self, config):
-        self._es = Elasticsearch([{'host': config['host'],'port': config['port']}])
+    def __init__(self, config):
+        self._es = ES([{'host': config['host'],'port': config['port']}])
         if self._es.ping(): print('connect success')
         else: print('connect fail')
 
-
-    def drop(self):
+    def connect(self):
         pass
 
-    def add(self, index, config = {'number_of_shards': 5, 'number_of_replicas': 0}):
-        '''
 
+    def drop(self, index):
+        try:
+            self._es.indices.delete(index, ignore=[400, 404])
+            print('drop '+index+' success')
+        except Exception as ex:
+            print('drop index fail')
+            traceback.print_exc()
+            Logger('error').get_log().error(ex)
+
+    #此功能弃用
+    def add(self, index, property, config = {'number_of_shards': 5, 'number_of_replicas': 0}):
+        '''
         :param config: 设置分片和备份
         :return:
         '''
@@ -31,17 +42,18 @@ class ElasticSearch(DatabaseProcess):
             "mappings": {
                 "Document": {
                     "dynamic": "strict",  # 含义不明确
-                    "properties": {
-                        "content": {
-                            "type": "text"
-                        },
-                        "file_name": {
-                            "type": "text"
-                        },
-                        "Date": {
-                            "type": "date"
-                        }
-                    }
+                    # "properties": {
+                    #     "content": {
+                    #         "type": "text"
+                    #     },
+                    #     "file_name": {
+                    #         "type": "text"
+                    #     },
+                    #     "Date": {
+                    #         "type": "date"
+                    #     }
+                    # }
+                    "properties":property,
                 }
             }
         }
@@ -58,23 +70,81 @@ class ElasticSearch(DatabaseProcess):
 
 
 
-    def search(self):
-        pass
+    def search(self, index, body):
+        """
+
+        :param index: 索引
+        :param body:     body = {"_source":"operated"}
+        :return:
+        """
+        return self._es.search(index= index, body=body, size = 10000)
 
 
 
-    def update(self):
-        pass
+    def update(self, index:str, q:json, target:json, doc_type=None ):
+        """
+        :param index: 索引名称
+        :param q:
+        :param target:
+        :return:
+        """
+        # update_body = {
+        #     "query": {
+        #         "bool": {
+        #             "must": [
+        #                 {
+        #                     "term": {
+        #                         "user": "test"
+        #                     }
+        #                 },
+        #                 {
+        #                     "term": {
+        #                         "item": 'test'
+        #                     }
+        #                 }
+        #             ]
+        #         }
+        #     },
+        # "script": {
+        #                     "inline": "ctx._source.score = params.score",
+        #                     "params": {
+        #                         "score": score
+        #                     },
+        #                     "lang": "painless"
+        #
+        #                 }
+        #
+        #             }
+        try:
+            update_body = {
+                "query": {
+                    "bool": {
+                        "must": [q]
+                    }
+                },
+                "script": {
+                    "inline": "ctx._source.score = params.score",
+                    "params": target,
+                    "lang": "painless"
+
+                }
+
+            }
+            self._es.update_by_query(index=index, doc_type=doc_type, body=update_body)
+        except Exception as ex:
+            traceback.print_exc()
+            Logger('error').get_log().error(ex)
+
+
 
 
     #数据批量导入
-    def insert(self, index, datas:list):
+    def insert(self, index, type, datas:list):
         actions = []
         for data in datas:
             action = {
                 "_index": index,
                 "_type": type,
-                "_id": None,
                 "_source": data
             }
             actions.append(action)
@@ -82,8 +152,9 @@ class ElasticSearch(DatabaseProcess):
         if len(actions):
             try:
                 helpers.bulk(self._es, actions, request_timeout = 100)
-                Logger().get_log().error(startime + '开始' + '本次共写入｛｝条数据'.format(len(actions)))
+                Logger().get_log().error('本次共写入｛｝条数据'.format(len(actions)))
             except Exception as ex:
+                traceback.print_exc()
                 Logger('error').get_log().error(ex)
 
 
@@ -108,6 +179,7 @@ class ElasticSearch(DatabaseProcess):
         try:
             self.insert(index_name, save_dict)  # 将数据批量导入elasticsearch
         except Exception as ex:
+            traceback.print_exc()
             Logger('error').get_log().error(ex)
         else:
             Logger().get_log().error('索引初始化完成')
@@ -120,3 +192,5 @@ class DateEncoder(json.JSONEncoder):
             return obj.strftime('%Y-%m-%d %H:%M:%S')
         else:
             return json.JSONEncoder.default(self, obj)
+
+

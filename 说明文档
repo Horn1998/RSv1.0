@@ -11,9 +11,10 @@ option 操作
 
 
 config：
-way     获取数据的方式
-format  文件格式
-path    文件路径
-option  操作  (注:必须严格与操作类名相同)
-userid  用户id
-Engine  模型
+way         文件路径
+appid       商家id
+source      数据来源 ES, normal（文件）
+type        模型类型 KNN  BaselineAlgorithms  MatrixFactorization
+module      是否已经有训练好的模型
+
+修改文档 requirement connect elasticearch

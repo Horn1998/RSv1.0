@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547d2151-dc0a-4656-98ef-c68169c26417" name="Default Changelist" comment="" />
+    <list default="true" id="547d2151-dc0a-4656-98ef-c68169c26417" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/BasePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommand/CommonRS/ConcreteRS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/DatabaseProcess/ElasticSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/DatabaseProcess/ElasticSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DatabaseConfig/ElasticSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DatabaseConfig/ElasticSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/ItemBaseRS/AbstractRS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/说明文档/back/ItemBaseRS/AbstractRS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/ItemBaseRS/ConcreteRS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/说明文档/back/ItemBaseRS/ConcreteRS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/ModelBaseRS/ConcreteRS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/ModelBaseRS/ConcreteRS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/Predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/Predictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/RecommendSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/RecommendSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/UserBaseRS/BaselineAlgorithms/AbstractRS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/UserBaseRS/BaselineAlgorithms/ConcreteRS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/UserBaseRS/KNN/AbstractRS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommand/CommonRS/AbstractRS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommand/UserBaseRS/KNN/ConcreteRS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/tests/test_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/tests/test_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试样例/DataProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试样例/DataProcess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试样例/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/说明文档" beforeDir="false" afterPath="$PROJECT_DIR$/说明文档" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,24 +34,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Restart_RA$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1582204448237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/全局变量" />
-    <SUITE FILE_PATH="coverage/Restart_RA$SVD.coverage" NAME="SVD Coverage Results" MODIFIED="1581937347078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS" />
-    <SUITE FILE_PATH="coverage/Restart_RA$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1582204413914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/全局变量" />
     <SUITE FILE_PATH="coverage/Restart_RA$Folder.coverage" NAME="Folder Coverage Results" MODIFIED="1581750088000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/FileProcess" />
-    <SUITE FILE_PATH="coverage/Restart_RA$.coverage" NAME="并行计算 Coverage Results" MODIFIED="1582099450485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS/测试数据" />
-    <SUITE FILE_PATH="coverage/Restart_RA$UserBaseRS.coverage" NAME="UserBaseRS Coverage Results" MODIFIED="1581926733644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS" />
-    <SUITE FILE_PATH="coverage/Restart_RA$SVD__1_.coverage" NAME="SVD (1) Coverage Results" MODIFIED="1581939994306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS/MatrixFactorization" />
-    <SUITE FILE_PATH="coverage/Restart_RA$ConcreteRS.coverage" NAME="ConcreteRS Coverage Results" MODIFIED="1582117161237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS/KNN" />
-    <SUITE FILE_PATH="coverage/Restart_RA$DataProcess.coverage" NAME="DataProcess Coverage Results" MODIFIED="1581914545891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
+    <SUITE FILE_PATH="coverage/Restart_RA$.coverage" NAME="数据转化 Coverage Results" MODIFIED="1584781700454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/测试数据" />
+    <SUITE FILE_PATH="coverage/Restart_RA$BasePath.coverage" NAME="BasePath Coverage Results" MODIFIED="1585411657446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
+    <SUITE FILE_PATH="coverage/Restart_RA$ConcreteRS.coverage" NAME="ConcreteRS Coverage Results" MODIFIED="1584795022198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS/KNN" />
+    <SUITE FILE_PATH="coverage/Restart_RA$DataProcess.coverage" NAME="DataProcess Coverage Results" MODIFIED="1585445652736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
     <SUITE FILE_PATH="coverage/Restart_RA$Filter__1_.coverage" NAME="Filter (1) Coverage Results" MODIFIED="1582175390257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand" />
     <SUITE FILE_PATH="coverage/Restart_RA$Filter.coverage" NAME="Filter Coverage Results" MODIFIED="1582127536446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS" />
-    <SUITE FILE_PATH="coverage/Restart_RA$MongoDB.coverage" NAME="MongoDB Coverage Results" MODIFIED="1581763396506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/DatabaseProcess" />
+    <SUITE FILE_PATH="coverage/Restart_RA$RecommendSystem.coverage" NAME="RecommendSystem Coverage Results" MODIFIED="1585495190226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand" />
     <SUITE FILE_PATH="coverage/Restart_RA$Folder__1_.coverage" NAME="Folder (1) Coverage Results" MODIFIED="1581774247386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/FileProcess" />
     <SUITE FILE_PATH="coverage/Restart_RA$AbstractRS.coverage" NAME="AbstractRS Coverage Results" MODIFIED="1582196028593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/ModelBaseRS" />
-    <SUITE FILE_PATH="coverage/Restart_RA$test.coverage" NAME="test Coverage Results" MODIFIED="1584667332575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例" />
-    <SUITE FILE_PATH="coverage/Restart_RA$storage.coverage" NAME="storage Coverage Results" MODIFIED="1582204437083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/全局变量" />
+    <SUITE FILE_PATH="coverage/Restart_RA$test.coverage" NAME="test Coverage Results" MODIFIED="1585496132625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand" />
+    <SUITE FILE_PATH="coverage/Restart_RA$Timer.coverage" NAME="Timer Coverage Results" MODIFIED="1585545030887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Restart_RA$Pearson.coverage" NAME="Pearson Coverage Results" MODIFIED="1581922788228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS" />
     <SUITE FILE_PATH="coverage/Restart_RA$JsonFile.coverage" NAME="JsonFile Coverage Results" MODIFIED="1582167109413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/FileProcess" />
+    <SUITE FILE_PATH="coverage/Restart_RA$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1585500205971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Restart_RA$SVD.coverage" NAME="SVD Coverage Results" MODIFIED="1581937347078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS" />
+    <SUITE FILE_PATH="coverage/Restart_RA$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1582204413914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/全局变量" />
+    <SUITE FILE_PATH="coverage/Restart_RA$ElasticSearch.coverage" NAME="ElasticSearch Coverage Results" MODIFIED="1585485632074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/DatabaseProcess" />
+    <SUITE FILE_PATH="coverage/Restart_RA$Timer__1_.coverage" NAME="Timer (1) Coverage Results" MODIFIED="1585327963349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Restart_RA$UserBaseRS.coverage" NAME="UserBaseRS Coverage Results" MODIFIED="1581926733644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS" />
+    <SUITE FILE_PATH="coverage/Restart_RA$SVD__1_.coverage" NAME="SVD (1) Coverage Results" MODIFIED="1581939994306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand/UserBaseRS/MatrixFactorization" />
+    <SUITE FILE_PATH="coverage/Restart_RA$Generator.coverage" NAME="Generator Coverage Results" MODIFIED="1585545087296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand" />
+    <SUITE FILE_PATH="coverage/Restart_RA$MongoDB.coverage" NAME="MongoDB Coverage Results" MODIFIED="1581763396506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common/DatabaseProcess" />
+    <SUITE FILE_PATH="coverage/Restart_RA$storage.coverage" NAME="storage Coverage Results" MODIFIED="1582204437083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试样例/全局变量" />
+    <SUITE FILE_PATH="coverage/Restart_RA$InitEngine.coverage" NAME="InitEngine Coverage Results" MODIFIED="1584777739358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Restart_RA$Predictor.coverage" NAME="Predictor Coverage Results" MODIFIED="1585544808792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommand" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -49,45 +82,53 @@
     <session id="-249142328">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.83" value="2" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="BunchFile" value="1" />
           <entry key="csv" value="3" />
-          <entry key="data" value="20" />
-          <entry key="gitignore" value="1" />
+          <entry key="data" value="21" />
+          <entry key="gitignore" value="3" />
           <entry key="json" value="9" />
           <entry key="log" value="5" />
           <entry key="mat" value="1" />
-          <entry key="py" value="290" />
-          <entry key="pyx" value="4" />
-          <entry key="requirement" value="1" />
+          <entry key="pickle" value="1" />
+          <entry key="py" value="465" />
+          <entry key="pyi" value="1" />
+          <entry key="pyx" value="6" />
+          <entry key="requirement" value="4" />
           <entry key="sh" value="1" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="7" />
           <entry key="待完善" value="3" />
           <entry key="待完成" value="1" />
-          <entry key="说明文档" value="7" />
+          <entry key="说明文档" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cython" value="4" />
+          <entry key="Cython" value="6" />
           <entry key="JSON" value="9" />
           <entry key="Log" value="5" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="290" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="465" />
+          <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -96,107 +137,93 @@
           <entry key="Django Console" value="6" />
           <entry key="csv" value="69" />
           <entry key="data" value="111" />
-          <entry key="dummy" value="95" />
-          <entry key="gitignore" value="16" />
+          <entry key="dummy" value="99" />
+          <entry key="gitignore" value="26" />
           <entry key="json" value="65" />
-          <entry key="py" value="24496" />
-          <entry key="requirement" value="71" />
-          <entry key="txt" value="27" />
+          <entry key="py" value="41581" />
+          <entry key="requirement" value="144" />
+          <entry key="txt" value="37" />
           <entry key="待完善" value="40" />
           <entry key="待完成" value="10" />
-          <entry key="说明文档" value="230" />
+          <entry key="说明文档" value="444" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="65" />
-          <entry key="PLAIN_TEXT" value="672" />
-          <entry key="Python" value="24502" />
+          <entry key="PLAIN_TEXT" value="983" />
+          <entry key="Python" value="41587" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Recommand/Generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1909">
-              <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+            <state relative-caret-position="552">
+              <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
               <folding>
-                <element signature="e#0#96#0" expanded="true" />
-                <marker date="1582210851922" expanded="true" signature="522:528" ph="..." />
+                <element signature="e#0#102#0" expanded="true" />
+                <element signature="e#673#819#0" />
+                <element signature="e#865#1765#0" />
+                <element signature="e#1803#2235#0" />
+                <element signature="e#2202#2667#0" />
+                <element signature="e#2735#3307#0" />
+                <element signature="e#4981#6985#0" />
+                <element signature="e#7497#7579#0" />
+                <element signature="e#7981#9673#0" />
+                <element signature="e#7830#7898#0" />
+                <element signature="e#8346#8954#0" />
+                <marker date="1585707352840" expanded="true" signature="2212:2692" ph="..." />
+                <marker date="1585707352840" expanded="true" signature="2744:3329" ph="..." />
+                <marker date="1585707352840" expanded="true" signature="7123:7889" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder.py">
+        <entry file="file://$PROJECT_DIR$/Recommand/Predictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
               <folding>
-                <marker date="1582211822422" expanded="true" signature="64:69" ph="..." />
+                <element signature="e#0#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/DatabaseProcess/AbstractClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/测试样例/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restart_RA/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="138">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Recommand/CommonRS/AbstractRS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
               <folding>
-                <marker date="1584670699146" expanded="true" signature="259:264" ph="..." />
+                <element signature="e#906#958#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+        <entry file="file://$PROJECT_DIR$/Recommand/CommonRS/ConcreteRS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
+            <state relative-caret-position="200">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="e#84#93#0" expanded="true" />
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,60 +238,63 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Common/FileProcess/ExcelFile.py" />
-        <option value="$PROJECT_DIR$/Common/FileProcess/CsvFile" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/BaselineAlgorithms/AbstractRS.py" />
-        <option value="$PROJECT_DIR$/Common/FileProcess/CsvFile.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/MatrixFactorization/SVD.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/test.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/Neighborhood/AbstractRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/Neighborhood/ConcreteRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/说明文档" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/BaselineAlgorithms/ConcreteRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/MatrixFactorization/ConcreteRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/ItemBaseRS/KNN/ConcreteRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/ItemBaseRS/KNN/AbstractRS.py" />
-        <option value="$PROJECT_DIR$/Common/DatabaseProcess/AbstractClass.py" />
-        <option value="$PROJECT_DIR$/requirement" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/Sizer.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/测试数据/并行计算.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/MatrixFactorization/AbstractRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/KNN/ConcreteRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/Filter.py" />
-        <option value="$PROJECT_DIR$/Recommand/ModelBaseRS/Filter.py" />
-        <option value="$PROJECT_DIR$/Recommand/测试数据/test.py" />
-        <option value="$PROJECT_DIR$/Recommand/测试数据/data.json" />
-        <option value="$PROJECT_DIR$/Common/LogProcess/Logger.py" />
         <option value="$PROJECT_DIR$/Common/FileProcess/JsonFile.py" />
         <option value="$PROJECT_DIR$/Config/ChildSystemConfig/RecommandCS.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Classifier/TextClassifier/TF_IDF.py" />
         <option value="$PROJECT_DIR$/Facade.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/knns.py" />
         <option value="$PROJECT_DIR$/Recommand/Filter.py" />
         <option value="$PROJECT_DIR$/Recommand/RSAbstract.py" />
-        <option value="$PROJECT_DIR$/Recommand/ItemBaseRS/AbstractRS.py" />
         <option value="$PROJECT_DIR$/Recommand/ModelBaseRS/AbstractRS.py" />
-        <option value="$PROJECT_DIR$/Recommand/ModelBaseRS/ConcreteRS.py" />
         <option value="$PROJECT_DIR$/测试样例/全局变量/test.py" />
         <option value="$PROJECT_DIR$/测试样例/全局变量/test2.py" />
         <option value="$PROJECT_DIR$/测试样例/全局变量/storage.py" />
-        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/KNN/AbstractRS.py" />
         <option value="$PROJECT_DIR$/测试样例/待完成" />
-        <option value="$PROJECT_DIR$/Recommand/RecommendSystem.py" />
-        <option value="$PROJECT_DIR$/Recommand/Generator.py" />
-        <option value="$PROJECT_DIR$/Recommand/Predictor.py" />
         <option value="$PROJECT_DIR$/Recommand/Trainer.py" />
-        <option value="$PROJECT_DIR$/说明文档" />
         <option value="$PROJECT_DIR$/Builder.py" />
-        <option value="$PROJECT_DIR$/Common/DatabaseProcess/ElasticSearch.py" />
         <option value="$PROJECT_DIR$/Common/DatabaseProcess/MongoDB.py" />
-        <option value="$PROJECT_DIR$/测试样例/test.py" />
         <option value="$PROJECT_DIR$/Restart_RA/urls.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Config/DatabaseConfig/ElasticSearch.py" />
+        <option value="$PROJECT_DIR$/测试样例/elasticsearch.py" />
+        <option value="$PROJECT_DIR$/InitEngine.py" />
+        <option value="$PROJECT_DIR$/requirement" />
+        <option value="$PROJECT_DIR$/测试样例/测试数据/数据转化.py" />
+        <option value="$PROJECT_DIR$/Recommand/说明文档/ESGenerator.py" />
+        <option value="$PROJECT_DIR$/Recommand/ESGenerator.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/测试样例/Timer.py" />
+        <option value="$PROJECT_DIR$/说明文档" />
+        <option value="$PROJECT_DIR$/Recommand/InitEngine.py" />
+        <option value="$PROJECT_DIR$/测试样例/DataProcess.py" />
+        <option value="$PROJECT_DIR$/测试样例/test.py" />
+        <option value="$PROJECT_DIR$/Config/BasePath.py" />
+        <option value="$PROJECT_DIR$/Common/DatabaseProcess/ElasticSearch.py" />
+        <option value="$PROJECT_DIR$/Recommand/ModelBaseRS/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/ItemBaseRS/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/KNN/AbstractRS.py" />
+        <option value="$PROJECT_DIR$/Timer.py" />
+        <option value="$PROJECT_DIR$/Recommand/Predictor.py" />
+        <option value="$PROJECT_DIR$/Recommand/说明文档/back.py" />
+        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/BaselineAlgorithms/AbstractRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/KNN/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/UserBaseRS/BaselineAlgorithms/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/CommonRS/BaselineAlgorithms/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/ItemBaseRS/AbstractRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/CommonRS/KNN/AbstractRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/CommonRS/KNN/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/CommonRS/ConcreteRS.py" />
+        <option value="$PROJECT_DIR$/Recommand/RecommendSystem.py" />
+        <option value="$PROJECT_DIR$/Recommand/Generator.py" />
       </list>
     </option>
   </component>
@@ -275,17 +305,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="486" />
-    <option name="y" value="198" />
-    <option name="width" value="1083" />
-    <option name="height" value="576" />
+    <option name="x" value="-1292" />
+    <option name="y" value="-12" />
+    <option name="width" value="1302" />
+    <option name="height" value="987" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,15 +323,11 @@
               <item name="Restart_RA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Restart_RA" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Restart_RA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Restart_RA" type="462c0819:PsiDirectoryNode" />
-              <item name="Restart_RA" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,11 +347,11 @@
       <recent name="D:\Restart_RA\测试样例" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Restart_RA\Recommand\说明文档\back" />
+      <recent name="D:\Restart_RA\Recommand\CommonRS" />
       <recent name="D:\Restart_RA\测试样例" />
-      <recent name="D:\Restart_RA\Recommand\测试数据" />
+      <recent name="D:\Restart_RA" />
       <recent name="D:\Restart_RA\Recommand" />
-      <recent name="D:\Restart_RA\Recommand\ItemBaseRS" />
-      <recent name="D:\Restart_RA\Recommand\UserBaseRS\测试数据" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,8 +366,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="AbstractRS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Generator">
+    <configuration name="Generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Restart_RA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,12 +375,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recommand/ModelBaseRS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recommand" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recommand/ModelBaseRS/AbstractRS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recommand/Generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,7 +389,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="storage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Restart_RA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,12 +397,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试样例/全局变量" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recommand" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试样例/全局变量/storage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recommand/Predictor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Timer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Restart_RA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,12 +441,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试样例/全局变量" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试样例/全局变量/test.py" />
+      <option name="SCRIPT_NAME" value="D:\Restart_RA\测试样例\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,34 +463,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试样例" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recommand" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试样例/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Restart_RA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试样例/全局变量" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试样例/全局变量/test2.py" />
+      <option name="SCRIPT_NAME" value="D:\Restart_RA\测试样例\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -476,19 +502,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.Restart_RA" />
-      <item itemvalue="Python.AbstractRS" />
-      <item itemvalue="Python.storage" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.test2" />
+      <item itemvalue="Python.Generator" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.Timer" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.Predictor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Generator" />
+        <item itemvalue="Python.Timer" />
+        <item itemvalue="Python.Predictor" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.storage" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.AbstractRS" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -506,25 +532,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1287" y="-7" width="868" height="657" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13177042" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21728395" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" weight="0.2497979" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" weight="0.3280142" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.19503546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39716312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008104" side_tool="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49918962" visible="true" weight="0.4539007" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32920355" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502021" side_tool="true" weight="0.45470694" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.497979" weight="0.4866785" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,354 +574,404 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recommand/UserBaseRS/测试数据/测试数据.py" />
-    <entry file="file://$PROJECT_DIR$/测试样例/测试数据/并行计算.py">
+    <entry file="file://$PROJECT_DIR$/Restart_RA/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="122">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/wzh/Anacode/Lib/multiprocessing/pool.py">
+    <entry file="file://$PROJECT_DIR$/Common/DatabaseProcess/AbstractClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="618" column="8" selection-start-line="618" selection-start-column="8" selection-end-line="618" selection-end-column="8" />
+        <state relative-caret-position="46">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/UserBaseRS/logs/error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/UserBaseRS/logs/log.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://D:/wzh/Anacode/Lib/logging/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Common/FileProcess/AbstractClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="1324" column="8" selection-start-line="1324" selection-start-column="8" selection-end-line="1324" selection-end-column="8" />
+        <state relative-caret-position="171">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/ModelBaseRS/Filter.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/matrix_factorization.pyx">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/elasticsearch/helpers/actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="596" column="8" selection-start-line="596" selection-start-column="8" selection-end-line="596" selection-end-column="8" />
+        <state relative-caret-position="115">
+          <caret line="275" column="32" lean-forward="true" selection-start-line="270" selection-start-column="4" selection-end-line="283" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/model_selection/_search.py">
+    <entry file="file://$PROJECT_DIR$/测试样例/elasticsearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="1052" column="71" selection-start-line="1052" selection-start-column="71" selection-end-line="1052" selection-end-column="71" />
+        <state relative-caret-position="46">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/FileProcess/DataFile.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="246">
+          <caret line="110" column="51" lean-forward="true" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/测试样例/测试数据/data.json">
+    <entry file="file://$PROJECT_DIR$/测试样例/测试数据/u.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/测试数据/数据转化.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/wzh/Anacode/Lib/traceback.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/LogProcess/Logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/FileProcess/JsonFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/UserBaseRS/KNN/ConcreteRS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="413" column="8" selection-start-line="413" selection-start-column="8" selection-end-line="413" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/测试样例/测试数据/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/ChildSystemConfig/TPCS.py">
+    <entry file="file://$PROJECT_DIR$/Recommand/ESGenerator.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/823033480/nt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="116">
+          <caret line="211" column="4" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/ChildSystemConfig/RecommandCS.py">
+    <entry file="file://$PROJECT_DIR$/Common/LogProcess/Logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/资料集合/SVC/SVC.py">
+    <entry file="file://$PROJECT_DIR$/Config/DatabaseConfig/ElasticSearch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/wzh/Anacode/Lib/pickle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="116">
+          <caret line="1574" column="10" selection-start-line="1574" selection-start-column="10" selection-end-line="1574" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明文档">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/DataProcess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/FileProcess/Folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/model_selection/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="344" column="8" selection-start-line="344" selection-start-column="8" selection-end-line="344" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/BasePath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#33#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/说明文档/back/ItemBaseRS/ConcreteRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/DatabaseProcess/ElasticSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="79" column="68" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#1032#2171#0" />
+            <marker date="1585487490784" expanded="true" signature="604:624" ph="..." />
+            <marker date="1585487490784" expanded="true" signature="2451:4078" ph="..." />
+            <marker date="1585487490784" expanded="false" signature="2627:3496" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/elasticsearch/client/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1447" column="21" selection-start-line="1446" selection-start-column="6" selection-end-line="1540" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/matrix_factorization.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试样例/测试文件夹/jingdong/item-5.pickle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/ModelBaseRS/ConcreteRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classifier/TextClassifier/TF_IDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier/TextClassifier/TF_IDF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facade.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/knns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="217" column="14" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/ItemBaseRS/ConcreteRS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/model_selection/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/ItemBaseRS/AbstractRS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/ModelBaseRS/AbstractRS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/ModelBaseRS/ConcreteRS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试样例/全局变量/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试样例/全局变量/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试样例/全局变量/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/UserBaseRS/KNN/AbstractRS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试样例/待完成">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/Predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/RecommendSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/Trainer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/说明文档">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/823033480/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="555" column="67" selection-start-line="555" selection-start-column="67" selection-end-line="555" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/datasets/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymongo/collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="3023" column="8" selection-start-line="3023" selection-start-column="8" selection-end-line="3023" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/DatabaseProcess/MongoDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/DatabaseProcess/ElasticSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recommand/Generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#96#0" expanded="true" />
-            <marker date="1582210851922" expanded="true" signature="522:528" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <marker date="1582211822422" expanded="true" signature="64:69" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/DatabaseProcess/AbstractClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/测试样例/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="69">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#190#728#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restart_RA/urls.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/说明文档/back/back.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="2" selection-end-line="231" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/algo_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/knns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/说明文档/back/ItemBaseRS/AbstractRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="6" selection-end-line="33" selection-end-column="49" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#1790#1842#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1585536681881" expanded="true" signature="164:165" ph="..." />
+            <marker date="1585536681881" expanded="false" signature="5755:6762" ph="..." />
+            <marker date="1585536681881" expanded="true" signature="5873:5882" ph="..." />
+            <marker date="1585536681881" expanded="true" signature="6764:6766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/CommonRS/AbstractRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="e#906#958#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/说明文档/back/BaselineAlgorithms/ConcreteRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+            <marker date="1585701705176" expanded="true" signature="244:252" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/说明文档/back/BaselineAlgorithms/AbstractRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/surprise/prediction_algorithms/random_pred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/InitEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/CommonRS/ConcreteRS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/Trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/Predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="138">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/RecommendSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <marker date="1584670699146" expanded="true" signature="259:264" ph="..." />
+            <element signature="e#0#62#0" expanded="true" />
+            <element signature="e#465#735#0" />
+            <element signature="e#795#2406#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recommand/Generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+            <element signature="e#673#819#0" />
+            <element signature="e#865#1765#0" />
+            <element signature="e#1803#2235#0" />
+            <element signature="e#2202#2667#0" />
+            <element signature="e#2735#3307#0" />
+            <element signature="e#4981#6985#0" />
+            <element signature="e#7497#7579#0" />
+            <element signature="e#7981#9673#0" />
+            <element signature="e#7830#7898#0" />
+            <element signature="e#8346#8954#0" />
+            <marker date="1585707352840" expanded="true" signature="2212:2692" ph="..." />
+            <marker date="1585707352840" expanded="true" signature="2744:3329" ph="..." />
+            <marker date="1585707352840" expanded="true" signature="7123:7889" ph="..." />
           </folding>
         </state>
       </provider>

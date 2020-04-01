@@ -3,8 +3,8 @@ from Recommand.ModelBaseRS.AbstractRS import AbstractRS
 from Common.LogProcess.Logger import Logger
 import os
 class SVDRS(AbstractRS):
-    def __init__(self, path):
-        self.path = path
+    def __init__(self):
+        super.__init__()
         self.algo = SVD()
 
 
@@ -20,8 +20,8 @@ class SVDRS(AbstractRS):
 
 
 class NMFRS(AbstractRS):
-    def __init__(self, path):
-        self.path = path
+    def __init__(self):
+
         self.algo = NMF()
 
 
@@ -30,8 +30,7 @@ class NMFRS(AbstractRS):
 
 
 class SVDppRS(AbstractRS):
-    def __init__(self, path):
-        self.path = path
+    def __init__(self):
         self.algo = SVDpp()
 
 

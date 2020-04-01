@@ -1,10 +1,9 @@
-from Recommand.UserBaseRS.KNN.AbstractRS import AbstractRS
-from Common.LogProcess.Logger import Logger
+from Recommand.CommonRS.AbstractRS import AbstractRS
 from surprise import KNNBaseline, KNNBasic
-import os
+
+
 class KNNBaselineRS(AbstractRS):
-    def __init__(self, path, sim_options={'name': 'pearson_baseline', 'user_based': False}):
-        self.path = os.path.expanduser(path)
+    def __init__(self,  sim_options={'name': 'pearson_baseline', 'user_based': False}):
         self.algo = KNNBaseline(sim_options = sim_options)
 
     def train(self):
@@ -16,6 +15,5 @@ class KNNBaselineRS(AbstractRS):
 
 
 class KNNBasicRS(AbstractRS):
-    def __init__(self, path, sim_options={'name': 'pearson_baseline', 'user_based': False}):
-        self.path = os.path.expanduser(path)
+    def __init__(self,  sim_options={'name': 'pearson_baseline', 'user_based': False}):
         self.algo = KNNBasic(sim_options = sim_options)

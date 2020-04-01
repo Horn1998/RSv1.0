@@ -1,0 +1,12 @@
+sklearn
+surprise
+pymongo
+elasticsearch
+jieba
+bunch
+numpy
+pandas
+datetime
+traceback
+logging
+os
